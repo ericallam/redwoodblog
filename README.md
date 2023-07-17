@@ -119,3 +119,27 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 - Stay updated: read [Forum announcements](https://community.redwoodjs.com/c/announcements/5), follow us on [Twitter](https://twitter.com/redwoodjs), and subscribe to the [newsletter](https://redwoodjs.com/newsletter)
 - [Learn how to contribute](https://redwoodjs.com/docs/contributing)
+
+## Connect to Trigger.dev
+
+Add the `TRIGGER_API_KEY` and `TRIGGER_API_URL` environment variables to your local `.env` file. If you are running against a local version of Trigger.dev, that could look something like:
+
+```
+TRIGGER_API_KEY=tr_dev_xxxx
+TRIGGER_API_URL=http://localhost:3030
+```
+
+Or if you using our Trigger.dev Cloud:
+
+```
+TRIGGER_API_KEY=tr_dev_xxxx
+TRIGGER_API_URL=https://api.trigger.dev
+```
+
+Run you local Redwood server like you normally would and then in another Terminal window or tab, run the following command:
+
+```sh
+yarn run dev:trigger
+```
+
+Then you should be able to visit your Trigger.dev dashboard and see the example job found in `/api/src/functions/trigger.ts`.
