@@ -7,7 +7,7 @@ const client = new TriggerClient({
   apiUrl: process.env.TRIGGER_API_URL,
 });
 
-new Job(client, {
+client.defineJob({
   id: "example-job",
   name: "Example Job",
   version: "1.0.0",

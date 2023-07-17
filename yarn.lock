@@ -7524,9 +7524,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trigger.dev/sdk@npm:next":
-  version: 2.0.0-next.17
-  resolution: "@trigger.dev/sdk@npm:2.0.0-next.17"
+"@trigger.dev/sdk@npm:2.0.0-next.18":
+  version: 2.0.0-next.18
+  resolution: "@trigger.dev/sdk@npm:2.0.0-next.18"
   dependencies:
     chalk: ^5.2.0
     cronstrue: ^2.21.0
@@ -7543,7 +7543,7 @@ __metadata:
     ws: ^8.11.0
     zod: 3.21.4
     zod-error: 1.5.0
-  checksum: 2476c55f6e65c66f716a7c596c0621ecd9b39108ab8e0b0355da375631c0a0a33a7442fb0c6a3fa0ce505fa0e2fbaa2cec3729aa80fed800487432aea564f37a
+  checksum: 60224899f620eae772c0e5f6bf2d99cb59cbb4eb9cf462223340b84c821f1e10e148ce5ae7684624c0fcd0fc65e402136fa3d440b3560e8b3744e8cc5acd57ae
   languageName: node
   linkType: hard
 
@@ -23215,7 +23215,7 @@ __metadata:
   dependencies:
     "@redwoodjs/core": 5.4.3
     "@trigger.dev/cli": ^0.2.1-next.23
-    "@trigger.dev/sdk": next
+    "@trigger.dev/sdk": 2.0.0-next.18
   languageName: unknown
   linkType: soft
 

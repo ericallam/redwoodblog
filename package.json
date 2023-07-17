@@ -23,7 +23,7 @@
   },
   "packageManager": "yarn@3.6.0",
   "dependencies": {
-    "@trigger.dev/sdk": "next"
+    "@trigger.dev/sdk": "2.0.0-next.18"
   },
   "trigger.dev": {
     "endpointId": "redwood-blog"
